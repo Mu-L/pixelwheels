@@ -166,7 +166,7 @@
   &quot;type&quot;: &quot;circle&quot;,
   &quot;x&quot;: 0.75,
   &quot;y&quot;: 0.25,
-  &quot;radius&quot;: 0.5
+  &quot;radius&quot;: 0.6
 }</property>
   </properties>
   <objectgroup draworder="index"/>
@@ -193,7 +193,7 @@
   &quot;type&quot;: &quot;circle&quot;,
   &quot;x&quot;: 0.75,
   &quot;y&quot;: 0.25,
-  &quot;radius&quot;: 0.5
+  &quot;radius&quot;: 0.6
 }</property>
   </properties>
  </tile>

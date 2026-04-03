@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.2" name="city" tilewidth="64" tileheight="64" spacing="4" margin="2" tilecount="304" columns="16">
+<tileset version="1.10" tiledversion="1.11.2" name="city" tilewidth="64" tileheight="64" spacing="4" margin="2" tilecount="304" columns="16">
  <image source="city.png" width="1088" height="1292"/>
  <tile id="5">
   <properties>
@@ -71,7 +71,7 @@
   &quot;type&quot;: &quot;circle&quot;,
   &quot;x&quot;: 0.75,
   &quot;y&quot;: 0.25,
-  &quot;radius&quot;: 0.5
+  &quot;radius&quot;: 0.6
 }</property>
   </properties>
  </tile>
@@ -133,7 +133,7 @@
   &quot;type&quot;: &quot;circle&quot;,
   &quot;x&quot;: 0.75,
   &quot;y&quot;: 0.25,
-  &quot;radius&quot;: 0.5
+  &quot;radius&quot;: 0.6
 }</property>
   </properties>
  </tile>
