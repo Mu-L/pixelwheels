@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="snow" tilewidth="64" tileheight="64" spacing="4" margin="2" tilecount="270" columns="15">
+<tileset version="1.10" tiledversion="1.11.2" name="snow" tilewidth="64" tileheight="64" spacing="4" margin="2" tilecount="270" columns="15">
  <image source="snow.png" width="1020" height="1224"/>
  <tile id="5">
   <properties>
@@ -436,7 +436,7 @@
   <properties>
    <property name="obstacle">{
   &quot;type&quot;: &quot;circle&quot;,
-  &quot;radius&quot;: 0.45,
+  &quot;radius&quot;: 0.6,
   &quot;x&quot;: 1,
   &quot;y&quot;: 0
 }</property>
@@ -612,7 +612,7 @@
   <properties>
    <property name="obstacle">{
   &quot;type&quot;: &quot;circle&quot;,
-  &quot;radius&quot;: 0.45,
+  &quot;radius&quot;: 0.6,
   &quot;x&quot;: 1,
   &quot;y&quot;: 0
 }</property>
