@@ -396,7 +396,12 @@ public class Racer extends GameObjectAdapter
         if (c1.hasFinishedRace() && c2.hasFinishedRace()) {
             // If both racers have finished, consider the racer with the shortest total time to be
             // in front of the other
-            return Float.compare(c2.getTotalTime(), c1.getTotalTime());
+            int cmp = Float.compare(c2.getTotalTime(), c1.getTotalTime());
+            if (cmp != 0) {
+                return cmp;
+            }
+            // Tiebreaker: racer with the faster best lap wins
+            return Float.compare(c2.getBestLapTime(), c1.getBestLapTime());
         }
         if (!c1.hasFinishedRace() && c2.hasFinishedRace()) {
             return -1;
